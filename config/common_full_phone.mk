@@ -1,6 +1,8 @@
 # Inherit common CM stuff
 $(call inherit-product, vendor/cm/config/common_full.mk)
 
+$(call inherit-product, vendor/cm/config/viperfx.mk)
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     LatinIME
